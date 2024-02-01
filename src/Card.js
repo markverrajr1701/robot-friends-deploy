@@ -12,6 +12,17 @@ const Card = () => {
     );
 };
 
-export default Card();
+export default Card;
+
+// export default function CardList ({robots}) {
+//     return (
+//         <div className="tc">
+//             <Card />
+//             <Card />
+//             <Card />
+//             <Card />
+//         </div>
+//     );
+// };
 
 
