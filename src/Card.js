@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Card = () => {
+const Card = ({id, name, email}) => {
     return (
         <div className="bg-light-green dib br3 ma2 pa3 tc grow">
-            <img src="https://robohash.org/8SM.png?size=200x200" alt="" />
+            <img src={`https://robohash.org/'${name}'?size=200x200`} alt="" />
             <div>
-                <h2>Jane Doe</h2>
-                <p>jane.doe@gmail.com</p>
+                <h2>{name}</h2>
+                <p>{email}</p>
             </div>
         </div>
     );
@@ -14,15 +14,5 @@ const Card = () => {
 
 export default Card;
 
-// export default function CardList ({robots}) {
-//     return (
-//         <div className="tc">
-//             <Card />
-//             <Card />
-//             <Card />
-//             <Card />
-//         </div>
-//     );
-// };
 
 
