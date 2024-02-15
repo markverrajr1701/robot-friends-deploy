@@ -4,7 +4,7 @@ import './index.css';
 //import Hello from './Hello';
 //import Card from "./Card";
 //import CardList from './Card';
-import App from './App';
+import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
